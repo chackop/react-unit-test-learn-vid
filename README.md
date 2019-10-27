@@ -1,3 +1,7 @@
+## Project
+
+Project to teach basics of react component of unit testing
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
