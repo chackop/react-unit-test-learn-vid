@@ -5,8 +5,7 @@ class Header extends Component {
     render() {
         return (
             <div className="Header">
-
-                <img src="images/wired-brain-coffee-logo.png" alt="Wired Brain" />
+                <img src="images/Store-Locator.jpg" alt="Store Locator" />
             </div>
         );
     }
