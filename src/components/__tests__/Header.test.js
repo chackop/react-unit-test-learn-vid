@@ -13,7 +13,7 @@ describe("Header", function () {
   });
 
   it('renders a logo', () => {
-    const logoImg = mountedHeader.find('img [src="images/wired-brain-coffee-logo.png"]');
+    const logoImg = mountedHeader.find('img [src="images/Store-Locator.jpg"]');
     expect(logoImg.length).toBe(1);
   });
 });
