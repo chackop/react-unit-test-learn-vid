@@ -3,8 +3,14 @@ import './Map.css';
 
 class Map extends Component {
     render() {
+        let imagePath;
+        if (this.props.imagename) {
+            imagePath = 'images/' + this.props.imagename;
+        } else {
+            imagePath = 'images/NoneMap.png';
+        }
         return (<div className="MapBox">
-            <img src="images/NoneMap.png" alt="No Store Selected" />
+            <img src={imagePath} alt={this.props.location} />
         </div>);
     }
 }

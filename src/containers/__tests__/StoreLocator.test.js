@@ -1,5 +1,5 @@
 import React from 'react';
-import {shallow} from 'enzyme';
+import { shallow } from 'enzyme';
 import StoreLocator from '../StoreLocator';
 
 describe("StoreLocator", function () {
@@ -15,6 +15,8 @@ describe("StoreLocator", function () {
 
     it('renders a header', () => {
         const headers = mountedStoreLocator.find('Header');
+        console.log(headers);
+
         expect(headers.length).toBe(1);
     });
 
@@ -25,10 +27,10 @@ describe("StoreLocator", function () {
     })
 });
 
-describe('chooseMap', ()=> {
-    it('updates this.state.currentMap using the location passed to it', ()=>{
+describe('chooseMap', () => {
+    it('updates this.state.currentMap using the location passed to it', () => {
         let mountedStoreLocator = shallow(<StoreLocator />);
-        let mockEvent = {target:{value:'testland'}};
+        let mockEvent = { target: { value: 'testland' } };
         mountedStoreLocator.instance().chooseMap(mockEvent);
         expect(mountedStoreLocator.instance().state.currentMap).toBe('testland.png');
     })

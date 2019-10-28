@@ -11,10 +11,10 @@ class StoreLocator extends Component {
             currentMap: 'NoneMap.png'
         };
         this.shops = [{
-            'location': 'Home',
+            'location': 'BexleyMap',
             'address': 'Bexley'
         }, {
-            'location': 'Work',
+            'location': 'LondonMap',
             'address': 'London Bridge'
         }, {
             'location': '',
