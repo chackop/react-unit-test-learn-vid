@@ -1,0 +1,20 @@
+{
+  "shops": [
+    {
+      "location": "BexleyMap",
+      "address": "Bexley"
+    },
+    {
+      "location": "LondonMap",
+      "address": "London Bridge"
+    },
+    {
+      "location": "Mayfair",
+      "address": "London Mayfair"
+    },
+    {
+      "location": "",
+      "address": ""
+    }
+  ]
+}
